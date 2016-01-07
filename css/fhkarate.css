@@ -1,0 +1,97 @@
+/* ----------------------------------------------------
+   base and variables
+   ---------------------------------------------------- */
+html {
+  margin: 0;
+  font-family: "PT Mono";
+}
+
+body {
+  padding-top: 70px;
+  font-family: "PT Sans";
+  font-size: 16px;
+}
+
+p {
+  color: #006699;
+}
+
+/* ----------------------------------------------------
+   Typo and layout
+   ---------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  color: #006699;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+navbar, navbar-default {
+  background-color: #006699;
+}
+
+#header {
+  font-family: "PT Sans Caption";
+  font-weight: 700;
+}
+
+#header p {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#header p small {
+  font-size: 3rem;
+}
+
+menu-fussmenue-container ul li {
+  color: #fff;
+}
+
+menu-fussmenue-container .menu {
+  color: #fff;
+}
+
+#vfooter {
+  background-color: rgba(0, 102, 153, 0.5);
+}
+
+#vfooter p {
+  color: #fff;
+  margin: 0;
+}
+
+#footer {
+  background-color: #006699;
+}
+
+#footer p {
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "PT Sans Narrow";
+}
+
+#footer a {
+  color: #fff;
+}
+
+/* ----------------------------------------------------
+   Reusable modules
+   ---------------------------------------------------- */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#vfooter {
+  color: #fff;
+}
